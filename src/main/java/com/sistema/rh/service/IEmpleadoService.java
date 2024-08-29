@@ -13,6 +13,6 @@ public interface IEmpleadoService {
 
     public Empleado saveEmpleado(Empleado empleado);
 
-    public void deleteEmpleado(Long id);
+    public void deleteEmpleado(Empleado empleado);
 
 }
